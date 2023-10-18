@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav{
+    /* width: 60%; */
+    display: flex;
+    justify-content: space-around;
+    padding: 0 10px;
+    background-color: #000;
+    color: #fff;
+}
+
+.accounts{
+    font-size: 0.7em;
+    font-weight: bold;
+    display: flex;
+}
+
+.a-account:hover{
+    color: #e35919;
+    transition: 1s;
+}
+
+.a-account{
+    color: #fff;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.a-sm{
+    color: #fff;
+    text-decoration: none;
+}
+
+.facebook:hover{
+    background-color: #3379b7;
+    padding-bottom: 4px;
+    transition: 0.2s;
+}
+
+.twitter:hover{
+    background-color: #66b3f6;
+    padding-bottom: 4px;
+    transition: 0.2s;
+}
+
+.instagram:hover{
+    background-color: #ffa600b7;
+    padding-bottom: 4px;
+    transition: 0.2s;
+}
+
+.youtube:hover{
+    background-color: #ff0000b7;
+    padding-bottom: 4px;
+    transition: 0.2s;
+}
+
+.p-account{
+    padding: 0.2em 1em 0 1em;
+}
+
+.fa-brands{
+    font-size: 0.8em;
+    padding: 0 0.6em 0.4em 0.6em;
+}
+
+header{
+    background-color: #222;
+    color: #fff;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 15vw;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+.fa-bars{
+    height: 100%;
+    margin: auto 0;
+    font-size: 2em;
+}
+
+.img-header{
+    width: 140.2px;
+    height: 65px;
+    background-image: url(../img/terabyte-logo.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.div-input-header{
+    display: flex;
+    width: 50%;
+    height: 45px;
+    margin: auto 0;
+    background-color: #fff;
+    color: #222;
+    border-radius: 10px;
+}
+
+.input-header{
+    height: 100%;
+    width: 93%;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.1em;
+    padding: 0.8em;
+    outline: none;
+}
+
+.icon-search{
+    margin: auto;
+}
+
+.entre{
+    margin: auto 0;
+}
+
+.login{
+    font-size: .8em;
+    text-align: center;
+}
+
+.fa-cart-shopping{
+    margin: auto 0;
+    font-size: 1.4em;
+}
+/* .div-slider{
+    height: 14vw;
+    background-image: url(../img/banners/banner-vote.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} */

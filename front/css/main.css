@@ -1,0 +1,424 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+body {
+    background-color: #ebebeb;
+}
+
+h2 {
+    font-size: 1em;
+    margin-bottom: 5vh;
+}
+
+.div-pc-para-todos {
+    width: 100%;
+    height: 33vh;
+    display: flex;
+    justify-content: space-between;
+    gap: 5vw;
+}
+
+.img-pc-para-todos {
+    width: 60%;
+    height: 83%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.img-pc-para-todos span {
+    position: absolute;
+    top: 110%;
+    font-weight: bold;
+}
+
+.div-home-office {
+    background-image: url(../img/pc-para-todos/home--office.webp);
+}
+.div-pc-gamer {
+    background-image: url(../img/pc-para-todos/pc--gamer.webp);
+}
+
+.h2-depart {
+    padding-top: 50px;
+}
+
+.div-imgs-depart {
+    margin-top: 5vh;
+    width: 100%;
+    height: 18vh;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.div-img-depart {
+    width: 60%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: #fff;
+    border-top: 10px #fff solid;
+    border-bottom: 10px #fff solid;
+}
+
+.div-img-depart span {
+    position: absolute;
+    top: 120%;
+    display: flex;
+}
+
+.img-1-depart {
+    background-image: url(../img/departamentos/kit-upgrade.webp);
+}
+.img-2-depart {
+    background-image: url(../img/departamentos/pc-gamer.webp);
+}
+.img-3-depart {
+    background-image: url(../img/departamentos/hardware.jpg);
+}
+.img-4-depart {
+    background-image: url(../img/departamentos/perifericos.webp);
+}
+.img-5-depart {
+    background-image: url(../img/departamentos/gabinetes.webp);
+}
+.img-6-depart {
+    background-image: url(../img/departamentos/refrigeracao.webp);
+}
+
+.section-mais-vendidos {
+    margin: 10% 0;
+}
+
+.div-produtos {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1vw;
+}
+
+.div-produto {
+    background-color: #fff;
+}
+
+.div-img-produto {
+    width: 100%;
+    height: 10vw;
+    padding: 10px;
+    border-bottom: #ebebeb solid 1px;
+}
+
+.p-descri-produto {
+    font-size: .8em;
+    margin-bottom: 1vw;
+    padding: 0 10px;
+}
+
+.p-valor,
+.p-parcelado {
+    font-size: .75em;
+    color: #666;
+    padding: 0 10px;
+}
+
+.p-a-vista {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    font-weight: 700;
+    color: #2aaa3e;
+    padding: 0 10px;
+}
+
+.p-parcelado{
+    padding: 0 10px 10px 10px;
+}
+
+.span-a-vista {
+    font-size: 0.7em;
+}
+
+.div-imgs-marcas {
+    margin-top: 5vh;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.div-img-marcas {
+    width: 60%;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: relative;
+    background-color: #fff;
+    border-top: 10px #fff solid;
+    border-bottom: 10px #fff solid;
+}
+
+.img-1-marcas {
+    background-image: url(../img/marcas/Superframe-logo.jpg);
+}
+.img-2-marcas {
+    background-image: url(../img/marcas/Doutor-Office.jpg);
+}
+.img-3-marcas {
+    background-image: url(../img/marcas/Gamer-Ninja.jpg);
+}
+.img-4-marcas {
+    background-image: url(../img/marcas/Leonidas.jpg);
+}
+.img-5-marcas {
+    background-image: url(../img/marcas/nvidia-logo.jpg);
+}
+.img-6-marcas {
+    background-image: url(../img/marcas/amd-logo.jpg);
+}
+.img-7-marcas {
+    background-image: url(../img/marcas/asus.jpg);
+}
+.img-8-marcas {
+    background-image: url(../img/marcas/intel-logo.jpg);
+}
+
+.flexbox{
+    display: flex;
+}
+
+.desconto{
+    border-bottom: 1px solid #ebebeb;
+    border-right: 1px solid #ebebeb;
+    padding: 15px;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.desconto span{
+    color: #2aaa3e;
+    font-weight: 700;
+}
+
+.semana{
+    border-bottom: 1px solid #ebebeb;
+    padding: 15px;
+    margin-bottom: 5px;
+    color: #FF5510;
+    font-weight: 600;
+}
+
+.footer1{
+    display: flex;
+    height: 10vw;
+    background-color: #212121;
+    border-bottom: 1px solid rgb(18, 18, 18);
+}
+
+.pagamento{
+    margin: 0 250px;
+}
+
+.footer1 h2{
+    color: #FF5510;
+    margin-bottom: 0;
+    font-weight: 200;
+    padding: 10px;
+}
+
+.footer1 img{
+    margin-bottom: 10px;
+}
+
+.footer2{
+    background-color: #212121;
+}
+
+.fot{
+    display: flex;
+    height: 10vw;
+    justify-content: space-between;
+    margin: 0 450px 0 250px;
+}
+
+.footer2 h5{
+    color: #FF5510;
+    font-weight: 100;
+    padding: 15px 0;
+}
+
+.institucional, .duvidas, .cliente, .ajuda{
+    display: flex;
+    flex-direction: column;
+}
+
+.institucional a, .duvidas a, .cliente a, .ajuda a{
+    text-decoration: none;
+    color: #DDDDDD;
+    font-size: 14px;
+}
+
+.institucional i, .duvidas i, .cliente i, .ajuda i{
+    color: #666;
+}
+
+.footer3{
+    background-color: #262626;
+    height: 5vw;
+}
+
+.footer3 h5{
+    color: #DDDDDD;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0 900px;
+    padding: 10px 0;
+}
+
+.social-icons{
+    display: flex;
+    margin: 0 810px;
+}
+
+.social-icons a{
+    color: #FF5510;
+    font-size: 35px;
+}
+
+footer {
+    height: 16.6vw;
+    background-color: #121212;
+    text-align: center;
+    padding: 20px;
+}
+
+footer img{
+    width: 250px;
+    padding: 20px;
+}
+
+footer p{
+    color: #8B8B8B;
+    font-size: 11px;
+}
+
+.branco{
+    color: #DDDDDD;
+}
+
+.branco1{
+    color: #DDDDDD;
+    padding-top: 10px;
+}
+
+.branco2{
+    font-size: 12px;
+    color: #DDDDDD;
+}
+
+.cinza1{
+    font-size: 11px;
+}
+
+.cinza3{
+    padding-bottom: 10px;
+}
+
+.logo-footer{
+    padding: 20px;
+    max-width: 9%;
+}
+
+@media(max-width: 1024px) {
+    main {
+        margin: 5vw 10vw;
+    }
+
+    .img-pc-para-todos {
+        width: 45%;
+        height: 54%;
+    }
+
+    .div-img-depart {
+        height: 15vw;
+    }
+
+    .div-produtos-mais-vendidos {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media(min-width: 1024px) {
+    main {
+        margin: 3vw 20vw;
+    }
+
+    .div-img-depart {
+        height: 10vw;
+    }
+
+}
+
+@media(max-width: 1400px){
+    .div-produtos{
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    .div-img-produto{
+        width: 220px;
+        height: 220px;
+    }
+
+    .div-produto{
+        width: 250px;
+    }
+}
+
+@media(max-width: 1350px){
+    .div-produtos{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .div-img-produto{
+        width: 220px;
+        height: 220px;
+    }
+
+    .div-produto{
+        width: 250px;
+    }
+
+}
+
+@media(max-width: 900px){
+    .div-produtos{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .div-img-produto{
+        width: 220px;
+        height: 220px;
+    }
+
+    .div-produto{
+        width: 250px;
+    }
+}
+
+@media(max-width: 600px){
+    .div-produtos{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .div-img-produto{
+        width: 250px;
+        height: 250px;
+    }
+
+    .div-produto{
+        width: 250px;
+    }
+}

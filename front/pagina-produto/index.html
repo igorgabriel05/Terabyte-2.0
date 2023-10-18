@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="https://img.terabyteshop.com.br/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/carrossel.css">
+    <link rel="stylesheet" href="pagina.css">
+    <script src="js/carrossel.js" defer></script>
+    <script src="js/script.js" defer></script>
+    <!-- <script src="js/preencherProd.js" defer></script> -->
+    <title>Pagina de Produto</title>
+</head>
+
+<body>
+    <nav>
+        <div class="social-midia">
+            <a class="a-sm facebook" target="_blank" rel="noopener noreferrer"
+                href="https://pt-br.facebook.com/Terabyteshop"><i class="fa-brands fa-facebook-f"></i></a>
+
+            <a class="a-sm twitter" href="https://twitter.com/terabyteshop" target="_blank" rel="noopener noreferrer"><i
+                    class="fa-brands fa-twitter"></i></a>
+
+            <a class="a-sm instagram" href="https://www.instagram.com/terabyteshop/" target="_blank"
+                rel="noopener noreferrer">
+                <i class="fa-brands fa-instagram"></i></a>
+
+            <a class="a-sm youtube" href="https://www.youtube.com/user/Terabyteshop" target="_blank"
+                rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+
+        <div class="accounts">
+            <p class="p-account"><a class="a-account" href="#">Minha Conta</a></p>
+            <p class="p-account"><a class="a-account" href="#">Atendimento</a></p>
+        </div>
+    </nav>
+
+    <header>
+        <i class="fa-sharp fa-solid fa-bars"></i>
+        <img src="../img/terabyte-logo.svg" alt="Logo" class="img-header">
+        <div class="div-input-header">
+            <input class="input-header" type="text" placeholder="Pesquise o seu produto">
+            <div class="icon-search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+        <div class="entre">
+            <p class="ola">Olá... Entre!</p>
+            <p class="login">Fazer login <i class="fa-solid fa-chevron-down"></i></p>
+        </div>
+        <i class="fa-solid fa-cart-shopping"></i>
+    </header>
+
+    <div class="carousel-container">
+        <div class="carousel">
+            <img src="../img/banners/banner-asus.jpg" alt="Imagem 1">
+            <img src="../img/banners/banner-spider.jpg" alt="Imagem 2">
+            <img src="../img/banners/banner-rtx.jpg" alt="Imagem 3">
+        </div>
+        <button class="btn-carrossel" id="prev">Anterior</button>
+        <button class="btn-carrossel" id="next">Próximo</button>
+    </div>
+
+    <section class="section-produto">
+        <div class="row1">
+            <div class="div-topo">
+                <a href="#" class="a-topo">HARDWARE <i class="fa-sharp fa-solid fa-chevron-right"></i></a>
+                <a href="#" class="a-topo">PLACA DE VÍDEO <i class="fa-sharp fa-solid fa-chevron-right"></i></a>
+                <a href="#" class="a-topo">NVIDIA GERFORCE</a>
+            </div>
+            <div class="contato">
+                <a href="#" class="zap"><i class="fa-brands fa-whatsapp" style="color: #00bd48;"></i></a>
+                <a href="#"><i class="fa-regular fa-envelope" style="color: #ff5510;"></i></a>
+                <a href="#"><i class="fa-sharp fa-regular fa-heart" style="color: #db2100;"></i></a>
+            </div>
+        </div>
+
+        <div class="row2">
+            <div class="col1">
+                <div class="img-pequena" id="pequenas">
+                    <!-- <img class="pequena2" src="../img/imgs-produto/placa de video.webp" alt="64x64px"> -->
+                    <img class="pequena1" src="../img/imgs-produto/img-pequena1.jpg" alt="64x64px">
+                    <img class="pequena1" src="../img/imgs-produto/img-pequena2.jpg" alt="64x64px">
+                    <img class="pequena1" src="../img/imgs-produto/img-pequena3.jpg" alt="64x64px">
+                    <img class="pequena1" src="../img/imgs-produto/img-pequena4.jpg" alt="64x64px">
+                    <img class="pequena1" src="../img/imgs-produto/img-pequena5.jpg" alt="64x64px">
+                    <img class="pequena1" src="../img/imgs-produto/img-pequena6.jpg" alt="64x64px">
+                </div>
+                <div id="divImg">
+                    
+                </div>
+            </div>
+            <div class="col2">
+                <div class="linha1">
+                    <div class="relogio">
+                        <i class="fa-solid fa-rotate fa-spin"></i>
+                    </div>
+                    <div class="semana">
+                        <p class="clutch">TERA WEEN</p>
+                        <p class="p-aproveite">APROVEITE!</p>
+                    </div>
+                    <div class="contagem">
+                        <p class="p-contagem">6 DIAS 19:47:45</p>
+                    </div>
+                </div>
+
+                <div class="linha2">
+                    <div class="desconto">
+                        <p class="n-desconto">27%</p>
+                        <p class="p-desconto">Desconto Extra</p>
+                    </div>
+                    <div class="vendidos">
+                        <p class="n-vendidos">592</p>
+                        <p class="p-vendidos">Vendidos</p>
+                    </div>
+                </div>
+
+                <div class="linha3" id="inserirProd">
+                    <div class="novo">
+                        <p class="p-novo"><i class="fa-solid fa-star"></i> NOVO</p>
+                        <p class="p-garantia"><i class="fa-regular fa-calendar-days"></i> 12 meses de garantia</p>
+                    </div>
+
+                    <div class="atributos-prod">
+                        <div class="div-descricao" id="atribute">
+                            
+                        </div>
+                        <div class="div-codigo">
+                            <span class="codigo-prod">CÓD: GV-N3050WF2OC-8GD</span>
+                        </div>
+                        <div class="mais-vendidos" id="lan-mais">
+                            
+                            <span class="span-posicao">18° Posição em <a id="a-placa" style="color:#ff5800;"
+                                    href="#">Placa
+                                    de Vídeo</a></span>
+                        </div>
+                        <div class="vendido-por">Vendido por: <span>TerabyteShop</span></div>
+                        <div class="pronta-entrega">
+                            <i class="fa-solid fa-bolt-lightning"></i>
+                            Pronta entrega
+                            <a href="#"><i class="fa-sharp fa-solid fa-circle-info"></i></a>
+                        </div>
+                        <div class="avaliacoes">
+                            ★★★★★ <span>6 avaliações</span>
+                        </div>
+                        <div class="info-preco-avista">
+                            <i class="fa-sharp fa-solid fa-barcode"></i>
+                            <div class="a-esquerda" id="precoProd">
+                                <!-- <p class="preco-antigo">De: R$ 2.399,90 por:</p> -->
+                                <!-- <p class="preco-avista">R$ 1.499,00</p> -->
+                                <!-- <p class="preco-desconto">à vista com 15% de desconto no boleto ou no pix</p> -->
+                            </div>
+                        </div>
+
+                        <div class="info-preco-parcelado">
+                            <i class="fa-regular fa-credit-card"></i>
+                            <div class="div-parcelado" id="precoParc">
+                                <!-- <p class="preco-parcelado">R$ 1.763,53</p> -->
+                                <!-- <p class="sem-juros">
+                                    <span>12x</span> de <span>R$ 146,96</span> sem juros no cartão
+                                </p> -->
+                                <!-- <p class="frete-gratis">
+                                    ou em 6x sem juros + <span>Frete Grátis</span>
+                                </p> -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="ver-parcelado">
+                        <i class="fa-sharp fa-solid fa-plus"></i> VER PARCELAMENTO
+                    </div>
+
+                    <div class="botao-compra">
+                        <button type="button" class="btn-comprar">COMPRAR COM DESCONTO <i
+                                class="fa-sharp fa-solid fa-cart-arrow-down"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br><br><br><br><br><br><br><br><br>
+    <br>
+</body>
+
+</html>

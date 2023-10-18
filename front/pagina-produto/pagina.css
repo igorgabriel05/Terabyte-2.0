@@ -1,0 +1,385 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+body {
+    background-color: #ebebeb;
+}
+
+.section-produto {
+    margin: 20px 230px;
+    padding: 10px 15px;
+    background-color: #FFFFFF;
+    border-radius: 6px;
+}
+
+.div-topo {
+    padding: 10px;
+}
+
+.a-topo {
+    text-decoration: none;
+    color: #ff5510;
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.fa-chevron-right {
+    color: #8B8B8B;
+    font-size: 10px;
+    font-weight: 900;
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 5px;
+    border-bottom: #ebebeb solid 1px;
+}
+
+.contato {
+    word-spacing: 20px;
+    padding: 10px 20px 5px 0;
+    font-size: 18px;
+}
+
+.fa-brands {
+    padding: 0;
+}
+
+.zap {
+    font-size: 24px;
+}
+
+.zoomImg {
+    width: 650px;
+    height: 650px;
+    padding: 20px;
+}
+
+.img-pequena {
+    display: flex;
+    flex-direction: column;
+    padding: 10px 10px 0 54px
+}
+
+.pequena1:hover {
+    border: 1px solid #9e9ef0;
+}
+
+.col1 {
+    display: flex;
+    padding: 20px;
+}
+.pequena2{
+    border: 1px solid #9e9ef0;
+}
+
+.pequena1, .pequena2 {
+    width: 64px;
+    height: 64px;
+    margin-bottom: 1px;
+}
+
+.col2 {
+    background-color: #2d2d2d;
+    position: sticky;
+    margin: 10px 0;
+    padding: 0 10px;
+    border-radius: 8px;
+}
+
+.row2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.linha1 {
+    display: flex;
+}
+
+.fa-rotate {
+    color: #ff5510;
+    font-size: 25px;
+    padding: 15px 20px;
+}
+
+.relogio,
+.semana {
+    border-right: 0.5px solid rgba(0, 0, 0, .3);
+    border-bottom: 0.5px solid rgba(0, 0, 0, .3);
+}
+
+.semana {
+    text-align: center;
+    padding: 10px 70px;
+
+}
+
+.clutch {
+    font-size: 15px;
+    color: #ff5510;
+    font-weight: 600;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.p-aproveite {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+
+.contagem {
+    border-bottom: 0.5px solid rgba(0, 0, 0, .3);
+    padding: 10px 61px;
+}
+
+.p-contagem {
+    font-size: 22px;
+    color: #FFFFFF;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+
+.linha2 {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(0, 0, 0, .3);
+}
+
+.desconto,
+.vendidos {
+    text-align: center;
+}
+
+.n-desconto,
+.n-vendidos {
+    color: #ff5510;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 40px;
+    font-size: 25px;
+    background-color: #191919;
+    padding: 0 110px;
+    margin: 10px;
+    text-shadow: 0 0 25px #ff5800, 0 0 18px #ff5800;
+}
+
+.p-desconto,
+.p-vendidos {
+    color: #FFFFFF;
+    padding-bottom: 5px;
+    font-size: 12px;
+}
+
+.novo {
+    display: flex;
+    font-size: 12px;
+    margin: 10px 0 10px 0;
+}
+
+.fa-star {
+    color: #ff5800;
+    margin: 0 4px 0 0;
+}
+
+.fa-calendar-days {
+    color: #ff5800;
+    margin: 0 4px 0 10px;
+}
+
+.p-novo,
+.p-garantia {
+    color: #eee;
+}
+
+.descricao-prod {
+    font: 18px "Open Sans", Arial, Helvetica, sans-serif;
+    color: #eee;
+}
+
+.codigo-prod {
+    font: 12px/20px "Open Sans", Arial, Helvetica, sans-serif;
+    color: #888;
+}
+
+.span-vendidos {
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #fff;
+    background-color: #ff5800;
+    padding: 4px 8px;
+    border-radius: 25px;
+}
+
+.mais-vendidos {
+    padding: 5px 0;
+    margin-bottom: 10px;
+}
+
+#a-placa {
+    text-decoration: none;
+    font-weight: 200;
+}
+
+.span-posicao {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.vendido-por span {
+    color: #fff;
+}
+
+.vendido-por {
+    margin-bottom: 20px;
+    font-weight: 400;
+    color: #bababa;
+    font-size: 12px;
+}
+
+.pronta-entrega {
+    color: #00a000;
+    text-align: left;
+    font-size: 12px;
+    margin: 10px 0 0 0;
+}
+
+.fa-bolt-lightning,
+.fa-circle-info {
+    color: #eee;
+}
+
+.avaliacoes span {
+    color: #777;
+    font-size: 12px;
+}
+
+.avaliacoes {
+    color: #f2c832;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.info-preco-avista {
+    display: flex;
+    margin-top: 10px;
+}
+
+.fa-barcode,
+.fa-credit-card {
+    margin-right: 10px;
+    color: #888;
+    font-size: 25px;
+}
+
+.preco-antigo {
+    font: 14px/20px "Open Sans", Arial, Helvetica, sans-serif;
+    color: #eee;
+    line-height: 25px;
+    margin: 0 0 8px 0;
+}
+
+.preco-avista {
+    color: #73c300;
+    font: 799 30px/36px "Open Sans Bold", Arial, Helvetica, sans-serif;
+    text-align: left;
+    margin-top: -6px;
+    letter-spacing: -2px;
+}
+
+.preco-desconto {
+    font: 12px/13px "Open Sans", Arial, Helvetica, sans-serif;
+    color: #eeee;
+    text-transform: none;
+    width: auto;
+    float: none;
+    text-align: left;
+}
+
+.info-preco-parcelado {
+    display: flex;
+    margin: 25px 0 10px 0;
+}
+
+.preco-parcelado {
+    color: #ff5510;
+    font-size: 22px;
+    font-family: "Open Sans", Arial, Helvetica, sans-serif;
+    line-height: 25px;
+}
+
+.sem-juros{
+    color: #eee;
+    font-size: 14px;
+}
+
+.sem-juros span{
+    color: #ff5800;
+}
+
+.frete-gratis{
+    color: #eee;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.frete-gratis span{
+    color: #00a000;
+    font-weight: 700;
+}
+
+.fa-plus{
+    font-weight: bold;
+}
+
+.ver-parcelado{
+    font-size: 12px;
+    color: #eee;
+    padding: 0 35px;
+}
+
+.btn-comprar{
+    background: #73c300;
+    color: #fff;
+    font-weight: 700;
+    font-size: 17px;
+    width: 100%;
+    margin: 30px 0 10px 0;
+    padding: 10px 0;
+    position: relative;
+    letter-spacing: 0;
+    transition: .5s all;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-comprar:hover{
+    background: #00a000;
+}
+
+.fa-cart-arrow-down{
+    right: 0;
+    position: absolute;
+    padding: 0 10px;
+    font-size: 20px;
+    opacity: 1;
+}
+
+@media(max-width: 1903px){
+    .col2{
+        width: 34em;
+        right: 0;
+    }
+    .n-desconto, .n-vendidos{
+        padding: 0 3.5em;
+    }
+
+    .zoomImg {
+        width: 550px;
+        height: 550px;
+        padding: 20px;
+    }
+}
