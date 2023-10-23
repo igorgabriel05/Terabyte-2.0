@@ -5,7 +5,6 @@ function getListar(){
     .catch(erro => console.log("Ocorreu um erro ao listar: " + erro))
 }
 
-
 function listar(produtos) {
     produtos.forEach(p => {
         if(p.tipo === 1){
@@ -15,7 +14,6 @@ function listar(produtos) {
         }
     });
 }
-
 
 function inserir(p) {
     var divProd = document.createElement("div");

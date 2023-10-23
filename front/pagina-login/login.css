@@ -1,0 +1,56 @@
+body {
+    background-color: #ebebeb;
+}
+
+.entre{
+    text-decoration: none;
+    color: #fff;
+}
+
+.entre p{
+    margin: 0;
+}
+
+.page-login {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    margin: 5em auto;
+    background-color: #333;
+    border-radius: 25px;
+    padding: 6em 0;
+}
+
+.h1-login,
+.h1-cad {
+    color: #fff;
+    padding: 30px;
+    font-size: 4em;
+}
+
+.input-user,
+.input-senha,
+.input-cad,
+.input-pass {
+    border: none;
+    border-radius: 7px;
+    width: 40%;
+    padding: 20px;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.color-red {
+    background-color: rgba(0, 145, 255, 0.448);
+}
+
+.btn {
+    margin: 20px;
+    padding: 10px 50px;
+}
+
+.a-login {
+    color: #ebebeb;
+}

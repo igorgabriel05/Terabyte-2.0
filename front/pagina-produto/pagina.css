@@ -4,6 +4,11 @@ body {
     background-color: #ebebeb;
 }
 
+.entre{
+    text-decoration: none;
+    color: #fff;
+}
+
 .section-produto {
     margin: 20px 230px;
     padding: 10px 15px;
@@ -103,12 +108,12 @@ body {
 }
 
 .relogio,
-.semana {
+.semanas {
     border-right: 0.5px solid rgba(0, 0, 0, .3);
     border-bottom: 0.5px solid rgba(0, 0, 0, .3);
 }
 
-.semana {
+.semanas {
     text-align: center;
     padding: 10px 70px;
 
@@ -146,7 +151,7 @@ body {
     border-bottom: 1px solid rgba(0, 0, 0, .3);
 }
 
-.desconto,
+.descontos,
 .vendidos {
     text-align: center;
 }
@@ -368,6 +373,12 @@ body {
     opacity: 1;
 }
 
+.img-banner{
+    width: 1420px;
+    margin: 0 15em;
+    border-radius: 10px;
+}
+
 @media(max-width: 1903px){
     .col2{
         width: 34em;
@@ -381,5 +392,46 @@ body {
         width: 550px;
         height: 550px;
         padding: 20px;
+    }
+}
+
+@media(max-width: 1720px){
+    .col2{
+        width: 25em;
+    }
+    .n-desconto, .n-vendidos{
+        padding: 0 1.5em;
+    }
+    .contagem, .semanas{
+        padding: 10px;
+    }
+    .img-banner{
+        width: 1000px;
+        margin: 0 20em;
+    }
+    .zoomImg {
+        width: 350px;
+        height: 350px;
+        padding: 10px;
+        margin: 5em;
+    }
+}
+
+@media(max-width: 1480px){
+    .col2{
+        width: 20em;
+    }
+    .zoomImg {
+        width: 350px;
+        height: 350px;
+        padding: 10px;
+        margin: 1em;
+    }
+    .img-pequena{
+        padding: 10px;
+    }
+    .img-banner{
+        width: 800px;
+        margin: 0 15em;
     }
 }

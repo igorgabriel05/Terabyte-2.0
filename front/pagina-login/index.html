@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="shortcut icon" href="https://img.terabyteshop.com.br/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <script src="js/variaveis.js" defer></script>
+    <script src="js/login.js" defer></script>
+    <script src="js/cadastrar.js" defer></script>
+    <title>Login 💻</title>
+</head>
+<body>
+    <nav>
+        <div class="social-midia">
+            <a class="a-sm facebook" target="_blank" rel="noopener noreferrer"
+                href="https://pt-br.facebook.com/Terabyteshop"><i class="fa-brands fa-facebook-f"></i></a>
+
+            <a class="a-sm twitter" href="https://twitter.com/terabyteshop" target="_blank" rel="noopener noreferrer"><i
+                    class="fa-brands fa-twitter"></i></a>
+
+            <a class="a-sm instagram" href="https://www.instagram.com/terabyteshop/" target="_blank"
+                rel="noopener noreferrer">
+                <i class="fa-brands fa-instagram"></i></a>
+
+            <a class="a-sm youtube" href="https://www.youtube.com/user/Terabyteshop" target="_blank"
+                rel="noopener noreferrer"><i class="fa-brands fa-youtube"></i></a>
+        </div>
+
+        <div class="accounts">
+            <p class="p-account"><a class="a-account" href="#">Minha Conta</a></p>
+            <p class="p-account"><a class="a-account" href="#">Atendimento</a></p>
+        </div>
+    </nav>
+
+    <header>
+        <i class="fa-sharp fa-solid fa-bars"></i>
+        <img src="../img/terabyte-logo.svg" alt="Logo" class="img-header">
+        <div class="div-input-header">
+            <input class="input-header" type="text" placeholder="Pesquise o seu produto">
+            <div class="icon-search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+        </div>
+        <a href="../pagina-login/index.html" target="_blank" class="entre">
+            <p class="ola">Olá... Entre!</p>
+            <p class="login">Fazer login <i class="fa-solid fa-chevron-down"></i></p>
+        </a>
+        <i class="fa-solid fa-cart-shopping"></i>
+    </header>
+
+    <section class="page-login" id="login">
+        <h1 class="h1-login" id="h1-login">Login</h1>
+        <input type="text" maxlength="16" class="input-user" id="input-user" placeholder="Usuario">
+        <input type="password" maxlength="8" class="input-senha" id="input-senha" placeholder="Senha">
+        
+        <h1 class="h1-cad visually-hidden" id="h1-cad">Cadastrar</h1>
+        <input type="text" maxlength="16" class="input-cad visually-hidden" id="input-cad" placeholder="Nome de Usuario" >
+        <input type="password" maxlength="8" class="input-pass visually-hidden" id="input-pass" placeholder="Senha (até 8 caracteres)" >
+
+        <div class="btn-a">
+            <button type="button" id="btn-entrar" class="btn btn-primary">Entrar</button>
+            <button type="button" id="btn-cad" class="btn btn-light">Cadastre-se</button>
+            <button type="button" id="btn-inserir" class="btn btn-dark visually-hidden">Inserir</button>
+            <button type="button" id="btn-cancelar" class="btn btn-warning visually-hidden">Cancelar</button>
+        </div>
+    </section>
+
+    <div class="footer1">
+        <div class="pagamento">
+            <h2 class="pag">FORMA DE PAGAMENTO</h2>
+            <img src="../img/forma-de-pagamento.png" alt="forma de pagamento">
+        </div>
+        <div class="seguranca">
+            <h2 class="seg">SEGURANÇA</h2>
+            <a target="_blank" class="seg-imgs" rel="noopener noreferrer" href="https://www.reclameaqui.com.br/empresa/terabyte-shop/">
+                <img src="../img/seguranca/seg1.png" alt="SEGURANÇA 1">
+            </a>
+            <a target="_blank" class="seg-imgs" rel="noopener noreferrer" href="https://www.confi.com.vc/lojas-confiaveis/buscar?seller=notfound">
+                <img src="../img/seguranca/seg2.png" alt="SEGURANÇA 2">
+            </a>
+            <a target="_blank" class="seg-imgs" rel="noopener noreferrer" href="https://transparencyreport.google.com/safe-browsing/search?url=terabyteshop.com.br&hl=pt-PT">
+                <img src="../img/seguranca/seg3.png" alt="SEGURANÇA 3">
+            </a>
+            <a target="_blank" class="seg-imgs" rel="noopener noreferrer" href="https://www.ebit.com.br/TerabyteShop">
+                <img src="../img/seguranca/seg4.png" alt="SEGURANÇA 4">
+            </a>
+        </div>
+    </div>
+    <div class="footer2">
+        <div class="fot">
+            <div class="institucional">
+                <h5>INSTITUCIONAL</h5>
+                <a href="#"><i class="fa-sharp fa-solid fa-chevron-right"></i> Quem somos</a>
+                <a href="#"><i class="fa-sharp fa-solid fa-chevron-right"></i> Termos e Condições de Venda</a>
+                <a href="#"><i class="fa-sharp fa-solid fa-chevron-right"></i> Política de Troca e Devoluções</a>
+                <a href="#"><i class="fa-sharp fa-solid fa-chevron-right"></i> Política de Segurança e Privacidade</a>
+                <a href="#"><i class="fa-sharp fa-solid fa-chevron-right"></i> Política de Cookies</a>
+                <a href="#"><i class="fa-sharp fa-solid fa-chevron-right"></i> Prêmios TerabyteShop</a>
+            </div>
+            <div class="duvidas">
+                <h5>DÚVIDAS</h5>
+                <a href="#"><i class="fa-sharp fa-solid fa-chevron-right"></i> Como comprar</a>
+                <a href="#"><i class="fa-sharp fa-solid fa-chevron-right"></i> Prazos e entregas</a>
+                <a href="#"><i class="fa-sharp fa-solid fa-chevron-right"></i> Formas de Pagamento</a>
+                <a href="#"><i class="fa-sharp fa-solid fa-chevron-right"></i> Programa de Parceiros</a>
+            </div>
+            <div class="cliente">
+                <h5>CLIENTE</h5>
+                <a href="#"><i class="fa-sharp fa-solid fa-chevron-right"></i> Minha conta</a>
+                <a href="#"><i class="fa-sharp fa-solid fa-chevron-right"></i> Meus pedidos</a>
+                <a href="#"><i class="fa-sharp fa-solid fa-chevron-right"></i> Meus tickets</a>
+            </div>
+            <div class="ajuda">
+                <h5>AJUDA</h5>
+                <a href="#"><i class="fa-sharp fa-solid fa-chevron-right"></i> Video Tutoriais</a>
+                <a href="#"><i class="fa-sharp fa-solid fa-chevron-right"></i> Manuseio do Produto</a>
+                <a href="#"><i class="fa-sharp fa-solid fa-chevron-right"></i> Fale Conosco</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer3">
+        <h5>SIGA-NOS</h5>
+        <div class="social-icons">
+            <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#"><i class="fa-brands fa-youtube"></i></a>
+            <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+    </div>
+    <footer>
+        <img src="../img/terabyte-logo.svg" alt="Logo terabyte">
+        <p class="cinza1">TERABYTE ATACADO E VAREJO DE PRODUTOS DE INFORMATICA LTDA</p>
+        <p class="cinza2">CNPJ: 07.993.973/0001-18 | Curitiba-PR</p>
+        <p class="branco1">ATENDIMENTO</p>
+        <p class="branco">De segunda a sexta das 8:30 às 12H / 13H às 18H</p>
+        <p class="cinza3">SOMOS E-COMMERCE - NÃO TEMOS ATENDIMENTO LOCAL</p><!-- 
+        <p class="branco2"><i class="fa-solid fa-gear"></i> Preferência de cookies</p>
+        <img src="https://img.terabyteshop.com.br/Powered-by.png" class="logo-footer" alt="logo footer"> -->
+    </footer>
+</body>
+</html>

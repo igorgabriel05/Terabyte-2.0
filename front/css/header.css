@@ -120,6 +120,8 @@ header{
 
 .entre{
     margin: auto 0;
+    text-decoration: none;
+    color: #fff;
 }
 
 .login{
