@@ -37,6 +37,11 @@ public class ProdControle {
         return dao.findById(id).orElse(null);
     }
 
+    @GetMapping("/pagina-finalizar/{id}")
+    public ProdModelo finalizar(@PathVariable Integer id){
+        return dao.findById(id).orElse(null);
+    }
+
     @PostMapping
     public ResponseEntity<ProdModelo> cadastrar(@RequestParam("img") MultipartFile img, @RequestParam("descricao") String descricao, @RequestParam("preco") Double preco, @RequestParam("tipo") Integer tipo) {
         try {
